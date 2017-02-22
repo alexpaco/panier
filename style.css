@@ -1,0 +1,133 @@
+body{
+	margin: 0;
+}
+header{
+	display: flex;
+	height: 100px;
+	background-color: #5A5E6B;	
+}
+h1{
+	text-align: center;
+}
+.logo{
+	display: flex;
+	width: 50%;
+}
+.centre{
+	font-size: 30px;
+	margin: auto;
+	color: white;
+	text-decoration: none;
+}
+.panier{
+	display: flex;
+	border-left: 1px solid darkgrey;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 25%;
+}
+.header{
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid darkgrey;
+}
+.panier a{
+	text-decoration: none;
+	color: white;
+}
+.argent{
+	display: flex;
+	border-left: 1px solid darkgrey;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 25%;
+}
+.menu{
+	width: 50%;
+	margin-left: 25%;
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+li{
+	cursor: pointer;
+}
+.parent{
+	display: flex;
+	justify-content: space-around;
+	width: 70%;
+	margin-left: 15%;
+}
+.produit{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	border: 1px solid darkgrey;
+}
+.description{
+	border-top: 1px solid darkgrey;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.img_produit{
+	width: 100%;
+}
+.texte{
+	text-align: center;
+}
+.rien{
+	width: 35%;
+}
+.rien1{
+	width: 65%;
+	border-left: 1px solid darkgrey;
+}
+.prixPanier{
+	display: flex;
+	align-items: center;
+	border-top: 1px solid darkgrey;
+	background-color: #CECECE;
+}
+.sauvegarde{
+	color: black;
+	margin-left: 43%;
+	width: 50%;
+}
+.prix{
+	margin-left: 20px;
+	width: 50%;
+}
+table{
+	width: 80%;
+	margin-left: 10%;
+}
+.bordure{
+	border: 2px solid black;
+	text-align: center;
+}
+tr{
+	border: 2px solid red;
+}
+.bordure1{
+	width: 100px;
+}
+.bordure2{
+	width: 150px;
+}
+.bordure3{
+	width: 80px;
+}
+.input{
+	width: 40px
+}
+footer{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	background-color: #5A5E6B;
+	bottom: 0;
+}
