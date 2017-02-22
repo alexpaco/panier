@@ -34,7 +34,7 @@ foreach($produits as $produit):
 	<td class="bordure"><?= $produit->nom; ?></td>
 	<td class="bordure"><?= $produit->description; ?></td>
 	<td class="bordure"><?= number_format($produit->prix,2,',',' '); ?> €</td>
-	<td class="bordure"><input class="input" type="number" name="panier[quantite][<?= $produit->id_produit; ?>]" value="<?= $_SESSION['panier'][$produit->id_produit]; ?>" min="1"></td>
+	<td class="bordure"><input class="input" type="number" name="panier[quantite][<?= $produit->id_produit; ?>]" value="<?= $_SESSION['panier'][$produit->id_produit]; ?>" min="1" max="100"></td>
 	<td class="bordure"><?= number_format($produit->prix * $_SESSION['panier'][$produit->id_produit],2,',',' '); ?> €</td>
 	<td class="bordure"><a href="panier.php?delPanier=<?= $produit->id_produit; ?>"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
 </tr>
